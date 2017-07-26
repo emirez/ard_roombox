@@ -38,7 +38,7 @@ void box_app_buzzer_starter(roombox_s *obj, int i){
         digitalWrite(BUZZER_PORT_D, get_roombox_buzzer_status(obj));
         delay(i);
         digitalWrite(BUZZER_PORT_D, !get_roombox_buzzer_status(obj));
-        delay(i*5);
+        delay(1000);
         }
 }
 

@@ -114,7 +114,7 @@ void loop(){
     // High Temperature Actions
     set_roombox_hightemp_val(&my_roombox_s, my_hightemp_s.getThmc());
     my_oled_s.setTextXY(8,0);
-    my_oled_s.putString("High Temp:");
+    my_oled_s.putString("High Tmp:");
     my_oled_s.setTextXY(8,10);
     my_oled_s.putNumber(get_roombox_hightemp_val(&my_roombox_s));
 }
